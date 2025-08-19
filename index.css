@@ -45,3 +45,65 @@ img:hover{
 ul{
     font-size: 1rem;
 }
+.login_page{
+    height: 32rem;
+    
+}
+.box2 h2{
+    text-align: center;
+    font-size: 2rem;
+    /* border: 2px solid blueviolet; */
+}
+.box2{
+    border-radius: 10px;
+    margin: 10px 358px;
+    /* width: 73vw; */
+    justify-content: center;
+    display: grid;
+    padding: 1.7rem 0.4rem;
+    border: 1.5px solid gray;
+}
+.box2 label{
+
+    display: grid;
+    justify-content: center;
+    /* border: 2px solid brown; */
+    
+}
+.box2 a{
+     color: white;
+     text-decoration: none;
+}
+input{
+    /* border: 2px solid rgba(8, 42, 52, 0.959); */
+    background-color: black;
+    padding: 7px 4px;
+    color: gray;
+    width: 234px;
+    border-radius: 3px;
+}
+._aa48{
+    padding-top: 0.9rem;
+}
+.login{
+    padding-top: 1rem;
+    
+}
+.login h4{
+    text-align: center;
+    padding: 4px;
+}
+.box2 button{
+    font-size: 1.1rem;
+    border-radius: 10px;
+    border: 2px solid grey;
+    width: 250px;
+    justify-content: center;
+    display: flex
+;
+    margin: 26px 44px;
+    background-color: rgba(132, 131, 131, 0.648);
+    border-radius: 1px solid white;
+    color: white;
+    padding: 7px 10px;
+}
