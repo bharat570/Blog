@@ -1,71 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" media="screen and (max-width: 570px)"href="phone.css">
-    <title>Blog on Artificial Intelligence</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog on Artificial Intelligence</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #d9e4f5, #f5f7fa);
+      color: #222;
+      line-height: 1.6;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 1.5rem 0;
+      font-size: 2.3rem;
+      color: #333;
+    }
+
+    img {
+      height: auto;
+      width: 80%;
+      max-width: 600px;
+      display: block;
+      margin: 1rem auto;
+      border-radius: 12px;
+      transition: all 0.4s ease;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    img:hover {
+      transform: scale(1.02);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    }
+
+    .box {
+      margin: 1.5rem auto;
+      padding: 2rem;
+      max-width: 800px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      color: #333;
+    }
+
+    .box ol {
+      margin-left: 1.5rem;
+    }
+
+    .box ul {
+      margin-left: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .login_page {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 3rem 1rem;
+    }
+
+    .box2 {
+      background: #ffffffd9;
+      border: 1px solid #ccc;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+      padding: 2rem 2.5rem;
+      max-width: 380px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .box2 h2 {
+      margin-bottom: 1.5rem;
+      color: #333;
+    }
+
+    .box2 input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 8px;
+      border: 1px solid #bbb;
+      font-size: 1rem;
+      background: #f8f9fa;
+      color: #333;
+    }
+
+    .box2 button {
+      width: 100%;
+      padding: 10px;
+      background: #007bff;
+      color: white;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 8px;
+      margin-top: 1rem;
+      transition: 0.3s;
+    }
+
+    .box2 button:hover {
+      background: #0056b3;
+      cursor: pointer;
+    }
+
+    .forgot {
+      text-align: center;
+      margin-top: 0.5rem;
+    }
+
+    .forgot a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    .forgot a:hover {
+      text-decoration: underline;
+    }
+
+    .signup-link {
+      margin-top: 0.5rem;
+      text-align: center;
+    }
+
+    .signup-link a {
+      color: #007bff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .signup-link a:hover {
+      text-decoration: underline;
+    }
+
+    @media screen and (max-width: 600px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+      .box {
+        padding: 1rem;
+        font-size: 0.95rem;
+      }
+      .box2 {
+        padding: 1.5rem;
+      }
+    }
+  </style>
 </head>
+
 <body>
-    <div class="home">
+  <div class="home">
+    <h1>Artificial Intelligence</h1>
+    <img src="ai-technology-diagram.png" alt="Artificial Intelligence">
+  </div>
 
-        <h1>Artificial Intelligence</h1>
-        <img src="ai-technology-diagram.png" alt="Artificial Intelligence">
-    </div>
-    <div class="box">
-        Most People have a missconception that is AI is/are Robots. But that's defienetly not the case , AI is something that can think,create,craft,make calculations on Data  <i> far better than Humans could ever do</i>-- but at present they can not be present in the <u>Physical World</u> but only in <i>Digital World</i>. AI can be Integrated into Robots, machines etc. and making them do things do things that Humans cannot do easily and faster.
+  <div class="box">
+    <p>Most people have a misconception that AI means robots. But that's not the case. AI is something that can
+      think, create, and make data-driven decisions far better than humans could — but only in the digital world.
+      AI can be integrated into robots or machines to make them perform tasks that humans cannot do easily or
+      quickly.</p>
 
-        Understanding Terms that comes under AI:
-        <ol>
-            <li> <b> Machine Learning </b></li>
-            <ul>
-                <li>Machine Learning lets computers learn from data without being programmed step-by-step.
-                    Instead of strict instructions, it improves itself by finding patterns in data.</li>
-                    <li>A spam filter, for example, learns to detect unwanted emails over time.
-                        The more examples it sees, the better it becomes at predictions.</li>
-                    <li>Think of it as teaching a machine through examples rather than fixed rules.</li>
-            </ul>
-            <li> <b> Deep Learning</b></li>
-            <ul>
-                <li>Deep Learning is a type of Machine Learning that uses neural networks with many layers.
-                    Each layer learns more complex patterns from the data.</li>
-                    <li>It powers tech like image recognition, voice assistants, and self-driving cars.
-                        It needs large amounts of data and high computing power.</li>
-                        <li>You can think of it as teaching machines to “see” and “hear” like humans.</li>
-            </ul>
-            <li> <b> Generative AI</b></li>
-            <ul>
-                <li>Generative AI creates new content — text, images, music, or videos.
-                    Instead of only analyzing data, it generates something entirely new.</li>
-                <li>Examples include ChatGPT and Gemini, which create text or art from prompts.
-                    It’s widely used in design, marketing, and entertainment.</li>
-                <li>Generative AI doesn’t just “think” — it “creates.”</li>
-            </ul>
-            <li> <b> Data Science</b></li>
-            <ul>
-                <li>Data Science involves collecting, cleaning, and analyzing large amounts of data.
-                    It blends statistics, coding, and subject knowledge to make sense of information.</li>
-                <li>Companies use it to improve products, understand customers, and predict trends.
-                    It ensures AI systems have quality data to learn from.</li>
-                <li>Without Data Science, AI would have no meaningful knowledge base.</li>
-            </ul>
-        </ol>
-    </div>
-    <div class="login_page">
-        <div class="box2">
-            <h2>Create Your Account</h2>
-            <form action="/">
-                    <div class="login">
-                        <label class="_aa48"><input placeholder="Phone number, username, or email" aria-required="true" autocapitalize="off" autocorrect="off" maxlength="37" class="_aa4b _add6 _ac4d _ap35" dir="" type="text" value="" name="username" ></label>
-                        <label class="_aa48"><input placeholder="Password" aria-required="true" autocapitalize="off" autocorrect="off" class="_aa4b _add6 _ac4d _ap35" type="password" value="" name="password"></label>
-                        <a href="/"><h4>Forgot Password?</h4></a>
-                        <button>Log in</button>
-                    </div>
-            </form>
+    <h3>Understanding key terms under AI:</h3>
+    <ol>
+      <li><b>Machine Learning</b></li>
+      <ul>
+        <li>Allows computers to learn from data without being explicitly programmed.</li>
+        <li>Finds patterns in data and improves over time.</li>
+        <li>Example: Email spam filters that get smarter with experience.</li>
+      </ul>
+
+      <li><b>Deep Learning</b></li>
+      <ul>
+        <li>Uses neural networks with many layers to learn complex data patterns.</li>
+        <li>Powers voice assistants, image recognition, and autonomous vehicles.</li>
+        <li>Needs huge amounts of data and computational power.</li>
+      </ul>
+
+      <li><b>Generative AI</b></li>
+      <ul>
+        <li>Creates new content like text, images, or videos from data.</li>
+        <li>Examples: ChatGPT and Gemini.</li>
+      </ul>
+
+      <li><b>Data Science</b></li>
+      <ul>
+        <li>Combines statistics, programming, and domain knowledge to interpret data.</li>
+        <li>Supports AI with reliable and structured data.</li>
+      </ul>
+    </ol>
+  </div>
+
+  <h1>Login Page</h1>
+  <div class="login_page">
+    <div class="box2">
+      <h2>Welcome Back</h2>
+      <form action="#">
+        <input type="text" placeholder="Username or Email" required>
+        <input type="password" placeholder="Password" required>
+
+        <div class="signup-link">
+          <p>Don't have an account? <a href="signup.html">Sign up</a></p>
         </div>
-    </div>
 
+        <button type="submit">Log In</button>
+
+        <div class="forgot">
+          <a href="#">Forgot Password?</a>
+        </div>
+      </form>
+    </div>
+  </div>
 </body>
 </html>
